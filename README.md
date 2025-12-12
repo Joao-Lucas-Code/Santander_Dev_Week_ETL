@@ -28,29 +28,40 @@ Este projeto é um pipeline de **ETL (Extract, Transform, Load)** reestruturado 
 ## 🛠️ Como executar
 
 ### 1. Clone o repositório
-
+```bash
 git clone https://github.com/Joao-Lucas-Code/Santander_Dev_Week_ETL.git
 cd Santander_Dev_Week_ETL
+```
 
 ### 2. Crie o ambiente virtual (Recomendado)
 
 #### Windows
+```bash
 python -m venv venv
 .\venv\Scripts\activate
+```
 
 #### macOS/Linux
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ### 3. Instale as dependências
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Configuração de Segurança (.env)
+```bash
 Crie um arquivo `.env` na raiz do projeto e adicione sua chave de API do Google Gemini:
 GEMINI_API_KEY=sua-chave-aqui
+```
 
 ### 5. Execute o pipeline ETL
+```bash
 python etl.py
+```
 
 ✅ Resultado Esperado
 Após a execução, um arquivo `users_processed.json` será gerado na raiz do projeto, contendo os dados dos usuários com as mensagens de marketing personalizadas.
