@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "João Lucas",
+    "news": [
+      {
+        "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+        "description": "Invista hoje para um futuro melhor!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Maria",
+    "news": [
+      {
+        "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+        "description": "Invista hoje para um futuro melhor!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pep",
+    "news": [
+      {
+        "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+        "description": "Invista hoje para um futuro melhor!"
+      }
+    ]
+  }
+]
