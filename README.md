@@ -53,8 +53,8 @@ pip install -r requirements.txt
 ```
 
 ### 4. Configuração de Segurança (.env)
+#### Crie um arquivo `.env` na raiz do projeto e adicione sua chave de API do Google Gemini:
 ```bash
-Crie um arquivo `.env` na raiz do projeto e adicione sua chave de API do Google Gemini:
 GEMINI_API_KEY=sua-chave-aqui
 ```
 
